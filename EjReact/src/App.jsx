@@ -1,38 +1,29 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import axios from 'axios'
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [count1, setCount1] = useState(0)
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Hola</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <button onClick={() => setCount1((count1) => count1 - 1)}>
-          count is {count1}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+ const [Usuarios, SetUsuarios]= useState([])
+
+ useEffect(()=>{
+  axios.get("localhost:44305/api/Usuario")
+  .then(response => [
+    SetUsuarios(response.data.results)
+  ])
+  .catch(error=>(console.log("Error al hacer la consulta " ,error)))
+},[])
+  return(
+    <ul>
+    {Usuarios.map(usuario =>(
+      <li> 
+        key={usuario.id}
+      </li>
+    ))}
+    </ul>
   )
+
 }
 
 export default App

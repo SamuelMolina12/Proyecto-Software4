@@ -1,0 +1,33 @@
+import axios from "axios";
+import { useEffect, useState } from 'react'
+
+const Usuario = () => {
+    const [Usuarios, SetUsuarios]= useState([])
+
+    useEffect(() => {
+        axios.get("http://localhost:44305/api/Usuario")
+            .then(response => {
+                SetUsuarios(response.data); 
+            })
+            .catch(error => {
+                console.log("Error al hacer la consulta ", error);
+            });
+    }, []);
+
+    return (
+        <ul>
+            {Usuarios.map(usuario => (
+                <li key={usuario.id}>
+                    <h2>{usuario.DocumentoIdentidad}</h2>
+                    <h2>{usuario.Nombres}</h2>
+                    <h2>{usuario.Telefono}</h2>
+                    <h2>{usuario.Correo}</h2>
+                    <h2>{usuario.Ciudad}</h2>
+                    <h2>{usuario.FechaRegistro}</h2>
+                </li>
+            ))}
+        </ul>
+    );
+}
+
+export default Usuario;

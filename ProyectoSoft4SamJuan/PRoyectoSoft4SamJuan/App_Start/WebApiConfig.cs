@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
+using System.Net.Http.Headers;
 
 namespace PRoyectoSoft4SamJuan
 {
@@ -9,9 +7,10 @@ namespace PRoyectoSoft4SamJuan
     {
         public static void Register(HttpConfiguration config)
         {
-            // Configuración y servicios de Web API
+            // Habilitar CORS
+            config.EnableCors();
 
-            // Rutas de Web API
+            // Rutas de API web
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
@@ -19,6 +18,9 @@ namespace PRoyectoSoft4SamJuan
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            // Configuración para devolver JSON en lugar de XML
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
         }
     }
 }
