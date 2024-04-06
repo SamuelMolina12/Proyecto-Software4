@@ -66,3 +66,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+table {
+  margin: 0 auto; /* Esto centra la tabla horizontalmente */
+  border-collapse: collapse; /* Esto fusiona los bordes de las celdas */
+  width: 80%; /* Puedes ajustar el ancho de la tabla según tus necesidades */
+}
+
+table, th, td {
+  border: 1px solid black; /* Esto define un borde de 1px sólido para la tabla, las celdas de cabecera y las celdas de datos */
+  padding: 8px; /* Esto agrega espacio entre el contenido y el borde */
+  text-align: left; /* Esto alinea el texto a la izquierda dentro de las celdas */
+}

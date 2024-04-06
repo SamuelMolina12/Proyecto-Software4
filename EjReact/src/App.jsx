@@ -16,11 +16,7 @@ function App() {
 },[])
   return(
     <ul>
-    {Usuarios.map(usuario =>(
-      <li> 
-        key={usuario.id}
-      </li>
-    ))}
+    <h1>ADIOSS</h1>
     </ul>
   )
 

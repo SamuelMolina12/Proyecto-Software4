@@ -1,5 +1,6 @@
 ﻿using System.Web.Http;
 using System.Net.Http.Headers;
+using System.Web.Http.Cors;
 
 namespace PRoyectoSoft4SamJuan
 {
@@ -8,7 +9,9 @@ namespace PRoyectoSoft4SamJuan
         public static void Register(HttpConfiguration config)
         {
             // Habilitar CORS
-            config.EnableCors();
+            var corsAttr = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(corsAttr);
+
 
             // Rutas de API web
             config.MapHttpAttributeRoutes();
