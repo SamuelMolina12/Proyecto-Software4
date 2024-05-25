@@ -6,7 +6,7 @@ const Usuario = () => {
     const [Usuarios, SetUsuarios]= useState([]);
 
     useEffect(() => {
-        axios.get("https://localhost:44305/api/Usuario")
+        axios.get("https://api-colombia.com//api/v1/country/Colombia")
             .then(response => {
                 SetUsuarios(response.data); 
             })
@@ -18,30 +18,26 @@ const Usuario = () => {
     return (
         <div>
             {Usuarios.length > 0 ? (
-                <table>
+                
+                   <table>
                     <thead>
                         <tr>
                             <th>Documento Identidad</th>
-                            <th>Nombres</th>
-                            <th>Teléfono</th>
-                            <th>Correo</th>
-                            <th>Ciudad</th>
-                            <th>Fecha de Registro</th>
+                            <th>Nombre</th>
+                           
                         </tr>
                     </thead>
                     <tbody>
-                        {Usuarios.map(usuario => (
-                            <tr key={usuario.IdUsuario}>
-                                <td>{usuario.DocumentoIdentidad}</td>
-                                <td>{usuario.Nombres}</td>
-                                <td>{usuario.Telefono}</td>
-                                <td>{usuario.Correo}</td>
-                                <td>{usuario.Ciudad}</td>
-                                <td>{usuario.FechaRegistro}</td>
+                        {info.map(info => (
+                            <tr key={info.Id}>
+                                <td>{info.name}</td>
+                                
+                                                       
                             </tr>
                         ))}
                     </tbody>
                 </table>
+               
             ) : (
                 <p>No hay usuarios disponibles</p>
             )}

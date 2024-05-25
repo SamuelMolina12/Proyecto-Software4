@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|c:\\users\\samuel\\desktop\\stdio\\soft4\\proyecto-software4\\proyectosoft4samjuan\\proyectosoft4samjuan\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|solutionrelative:proyectosoft4samjuan\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|c:\\users\\samuel\\desktop\\stdio\\soft4\\proyecto-software4\\proyectosoft4samjuan\\proyectosoft4samjuan\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|solutionrelative:proyectosoft4samjuan\\data\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\proyectosoft4samjuan\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|c:\\users\\samuel\\desktop\\stdio\\soft4\\proyecto-software4\\proyectosoft4samjuan\\proyectosoft4samjuan\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|solutionrelative:proyectosoft4samjuan\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|c:\\users\\samuel\\desktop\\stdio\\soft4\\proyecto-software4\\proyectosoft4samjuan\\proyectosoft4samjuan\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|solutionrelative:proyectosoft4samjuan\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\proyectosoft4samjuan\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7942933F-E1AE-4BC1-8EF6-F53CE217DFB8}|PRoyectoSoft4SamJuan\\PRoyectoSoft4SamJuan.csproj|solutionrelative:proyectosoft4samjuan\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\Data\\Conexion.cs",
+              "RelativeDocumentMoniker": "PRoyectoSoft4SamJuan\\Data\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\Data\\Conexion.cs",
+              "RelativeToolTip": "PRoyectoSoft4SamJuan\\Data\\Conexion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:41:27.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "PRoyectoSoft4SamJuan\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "PRoyectoSoft4SamJuan\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:41:22.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "PRoyectoSoft4SamJuan\\Models\\Usuario.cs",
               "ToolTip": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\Models\\Usuario.cs",
               "RelativeToolTip": "PRoyectoSoft4SamJuan\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T00:06:15.181Z"
+              "WhenOpened": "2024-03-31T00:06:15.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "PRoyectoSoft4SamJuan\\App_Start\\WebApiConfig.cs",
               "ToolTip": "C:\\Users\\Samuel\\Desktop\\Stdio\\Soft4\\Proyecto-Software4\\ProyectoSoft4SamJuan\\PRoyectoSoft4SamJuan\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "PRoyectoSoft4SamJuan\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T23:10:38.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-30T23:10:38.777Z"
             }
           ]
         }
